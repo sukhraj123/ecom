@@ -117,6 +117,17 @@ function IndexNavbar() {
                 <i className=""></i> Products
               </Button>
             </NavItem>
+            
+            <NavItem>
+              <Button
+                className="btn-round"
+                color="danger"
+                href="#test"
+                
+              >
+                <i className=""></i> Testimonials
+              </Button>
+            </NavItem>
             <NavItem>
 <NavLink className="ec-cart-widget"></NavLink>
 </NavItem>
