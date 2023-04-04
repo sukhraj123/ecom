@@ -1,21 +1,4 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
@@ -69,9 +52,9 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Coded by KZ Web Solutions"
           >
-            Paper Kit React
+            Clear Optics
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -91,17 +74,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
-              </NavLink>
-            </NavItem>
+            
             <NavItem>
               <NavLink
                 data-placement="bottom"
@@ -124,25 +97,8 @@ function IndexNavbar() {
                 <p className="d-lg-none">Instagram</p>
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial/paper-kit-react?ref=creativetim"
-                target="_blank"
-                title="Star on GitHub"
-              >
-                <i className="fa fa-github" />
-                <p className="d-lg-none">GitHub</p>
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink
-                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
-                target="_blank"
-              >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
-              </NavLink>
-            </NavItem>
+            
+            
             <NavItem>
               <Button
                 className="btn-round"
