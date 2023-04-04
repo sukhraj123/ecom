@@ -21,11 +21,11 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Clear Optics</h1>
+              <h1 className="presentation-title">Buy One, Give One</h1>
               
             </div>
             <h2 className="presentation-subtitle text-center">
-            When It Comes to Eye Wear, We Believe That Great Design, Quality Craftsmanship, and Style Are Values That All Our Frames Should Uphold. That's Why We Hand Pick Every Frame from International Brands That Meet These Core Values.
+            As Strong Belivers In Giving We Will Donate A Pair If You Purchase One. Donations Will Be Made To Local Shelters In Vancouver, BC.
             </h2>
           </Container>
           
